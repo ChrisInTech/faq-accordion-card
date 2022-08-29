@@ -24,10 +24,22 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
 }
-.info{
+.info1{
     display: none;
-    
 }
+.info2{
+    display: none;
+}
+.info3{
+    display: none;
+}
+.info4{
+    display: none;
+}
+.info5{
+    display: none;
+}
+    
 @media only screen and (min-width: 375px){
 img.illustration-box
 {
@@ -166,7 +178,23 @@ hr{
         width: 30rem;
         margin-right: 5rem;
     }
-    .question:hover{
+    .question1:hover{
+        color: var(--Softred);
+        cursor: pointer;
+    }
+    .question2:hover{
+        color: var(--Softred);
+        cursor: pointer;
+    }
+    .question3:hover{
+        color: var(--Softred);
+        cursor: pointer;
+    }
+    .question4:hover{
+        color: var(--Softred);
+        cursor: pointer;
+    }
+    .question5:hover{
         color: var(--Softred);
         cursor: pointer;
     }
