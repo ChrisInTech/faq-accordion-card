@@ -24,6 +24,10 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
 }
+.info{
+    display: none;
+    
+}
 @media only screen and (min-width: 375px){
 img.illustration-box
 {
@@ -118,7 +122,8 @@ hr{
 
 /* DESKTOP */
 
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 700px) and (max-width: 2000px){
+   
     img.illustration-woman{
         display: none;
     }
@@ -140,7 +145,7 @@ hr{
         left: 15rem;
     }
     .question-ctn{
-        width: 60%;
+        width: 80%;
         align-items: flex-end;
     }
     .question-ctn p{
@@ -160,6 +165,10 @@ hr{
     hr{
         width: 30rem;
         margin-right: 5rem;
+    }
+    .question:hover{
+        color: var(--Softred);
+        cursor: pointer;
     }
 }
 
