@@ -1,4 +1,18 @@
+// select elements from the dom
 
+ const questions = document.querySelectorAll('.question')
+
+ //loop through all the elements and add an event listener
+
+ questions.forEach((question) =>question.addEventListener('click', ()=>{
+    if(question.parentNode.classList.contains('active')){
+        question.parentNode.classList.toggle('active')
+    } else {
+        questions.forEach((question) => question.parentNode.classList.remove('active'))
+        question.parentNode.classList.add('active')
+    }
+ })
+ )
 
 
 
